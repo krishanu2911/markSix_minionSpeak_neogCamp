@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
 textarea{
     display: block;
     width: 90%;
     height: 10vh;
-    margin: 1rem;
+    margin: 0rem 1rem;
     padding: 1rem;
+    border: none;
 
 }
 #output{
@@ -13,4 +16,53 @@ textarea{
     height: 10vh;
     margin: 1rem;
     padding: 1rem;
+}
+
+
+:root{
+    --primary-color : #FBBF24;
+    --secondary-color : #FDE68A;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+.header-top{
+    background-color: var(--primary-color);
+}
+.header-banana{
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+}
+.text-area {
+    padding: 2rem;
+    
+    /* margin: auto;
+    text-align: center; */
+    background-color: var(--secondary-color);
+}
+.text-area textarea{
+    max-width: 600px;
+    margin: auto;
+}
+.btn {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+#btn-translate{
+    padding: 1rem;
+    border: solid;
+    border-color: var(--primary-color);
+    
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    
+    
+    cursor: pointer;
+   
+    
 }
