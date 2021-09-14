@@ -68,6 +68,8 @@ body{
 }
 #output{
     background-color: white;
+    max-width: 600px;
+    margin: auto;
 }
 .container-center{
     max-width: 600px;
@@ -78,6 +80,8 @@ body{
 .hth{
     background-color: var(--primary-color);
     padding: 2rem;
+   
+
 }
 .hth h1{
     margin: 0px;
@@ -96,7 +100,12 @@ body{
     padding: 2rem 1rem;
     text-align: center;
     color:white;
-    border-top-right-radius: 1rem;
+    
+}
+.footer-header{
+    color: black;
+    max-width: 600px;
+    margin: auto;
 }
 .footer .link{
     color: white;
@@ -106,6 +115,9 @@ body{
 }
 .footer img{
     width: 2rem;
+}
+.header-output{
+    padding: 0rem 0rem 2rem 0rem;
 }
 
 
