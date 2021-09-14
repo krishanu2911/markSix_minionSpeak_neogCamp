@@ -66,3 +66,50 @@ body{
    
     
 }
+#output{
+    background-color: white;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    
+}
+.hth{
+    background-color: var(--primary-color);
+    padding: 2rem;
+}
+.hth h1{
+    margin: 0px;
+}
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    padding: 0rem 0.5rem;
+    display: inline;
+}
+.footer{
+ 
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer img{
+    width: 2rem;
+}
+
+
+/* .header-output{
+    text-align: center;
+} */
+
